@@ -1,0 +1,81 @@
+.about {
+    padding: 100px 20px;
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    border-bottom: 4px solid #070506f6;
+
+}
+
+.about h2 {
+    font-size: 3rem;
+    margin-bottom: 50px;
+    color: #ff4d5a;
+    position: relative;
+}
+
+.about h2::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -15px;
+    width: 13%;  /* Adjusted to be smaller to fit the text */
+    height: 4px;
+    background-color: #ff4d5a;
+}
+
+.skills span {
+    background-color: #ff4d5a;
+    padding: 8px 12px;  /* Smaller padding to reduce size */
+    border-radius: 5px;
+    color: white;
+    font-size: 0.9rem;  /* Smaller font size */
+    text-align: center;
+    width: 90px;  /* Reduced width for each skill box */
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left, .right {
+    flex: 1;
+    text-align: left;
+}
+
+.headshot {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid #ff4d5a;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.left p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right span {
+    background-color: #ff4d5a;
+    padding: 10px 10px;
+    border-radius: 1px;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}

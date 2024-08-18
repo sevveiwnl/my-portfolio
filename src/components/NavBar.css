@@ -1,0 +1,40 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(40, 40, 40, 0.95);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid #070505;
+    padding: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    z-index: 9999; /* Ensures it's above other elements */
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin-right: 50px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 300; /* Use a lighter weight for a clean look */
+    font-family: 'Roboto', sans-serif;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #ff4d5a;
+}
+
+
+  
+

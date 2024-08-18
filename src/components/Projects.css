@@ -1,0 +1,28 @@
+.projects {
+    padding: 100px 20px;
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    border-bottom: 4px solid #070506f6;
+  }
+  
+  .projects h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .projects p {
+    margin-bottom: 40px;
+    font-size: 1.2rem;
+  }
+  
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Add more styling for individual project items */
+  
+  
