@@ -65,8 +65,8 @@ const BackgroundAnimation = () => {
         this.y = y;
         this.size = 3;
         this.alpha = 0.7;
-        //this.color = Math.random() > 0.5 ? 'rgba(255, 8, 8, ' : 'rgba(0, 201, 244, ';
-        this.color = Math.random() > 0.5 ? 'rgba(199, 234, 241, 0.93)' : 'rgba(241, 199, 210, 0.93)';
+        this.color = Math.random() > 0.5 ? 'rgba(255, 8, 8, ' : 'rgba(0, 201, 244, ';
+        //this.color = Math.random() > 0.5 ? 'rgba(199, 234, 241, 0.93)' : 'rgba(241, 199, 210, 0.93)';
       }
 
       update() {
