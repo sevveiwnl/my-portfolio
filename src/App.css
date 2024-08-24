@@ -1,20 +1,23 @@
-.App {
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-  background-color: #000;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  min-height: 100vh;
-}
-
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #000;
+}
+
+.App {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  min-height: 100vh;
+  position: relative;
 }
 
 .section {
-  border-bottom: 4px solid #0b0b0b; /* Bold border with color of your choice */
-  padding-bottom: 20px; /* Optional padding to give space between the content and border */
+  border-bottom: 4px solid #0b0b0b;
+  padding-bottom: 20px;
+  position: relative;
+  z-index: 1;
 }
