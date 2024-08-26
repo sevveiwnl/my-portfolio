@@ -1,44 +1,34 @@
 .contact {
-    padding: 100px 20px;
-    background-color: #1a1a1a;
-    color: white;
-    text-align: center;
-    border-bottom: 4px solid #070505;
-  }
-  
-  .contact h2 {
-    margin-bottom: 20px;
-    font-size: 2rem;
-  }
-  
-  .contact form {
-    max-width: 500px;
-    margin: 0 auto;
-  }
-  
-  .contact input,
-  .contact textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #333;
-    color: white;
-  }
-  
-  .contact button {
-    padding: 10px 20px;
-    background-color: #e91e63;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .contact button:hover {
-    background-color: #d81b60;
-  }
-  
+  padding: 100px 20px;
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+  position: relative; 
+  border-bottom: 4px solid #070505;
+}
+
+.email-link {
+  color: #ff4d5a; 
+  font-size: 1.2rem;
+  margin: 20px 0;
+  display: inline-block;
+}
+
+.github-icon-container {
+  position: absolute;
+  bottom: 10px; 
+  width: 100%;
+  text-align: center;
+}
+
+.github-icon-container img {
+  width: 50px; 
+  opacity: 0.7; 
+  transition: opacity 0.3s;
+}
+
+.github-icon-container img:hover {
+  opacity: 1; 
+}
+
   
