@@ -1,7 +1,7 @@
 import React from 'react';
 import './Projects.css';
 import flickcrazePng from '../assets/flickcraze.png'; // You'll need to add this image
-import sentimentaiPng from '../assets/sentimentai.png'; // You'll need to add this image
+import formwizardPng from '../assets/formwizard.png'; // You'll need to add this image
 
 function Projects() {
   const projects = [
@@ -12,10 +12,10 @@ function Projects() {
       link: "https://github.com/sevveiwnl/flickcraze"
     },
     {
-      title: "SentimentAI",
-      description: "Web application that analyzes sentiment in song lyrics using NLP techniques",
-      image: sentimentaiPng,
-      link: "https://github.com/sevveiwnl/SentimentAI"
+      title: "FormWizard",
+      description: "Form analytics platform capturing user interaction patterns to optimize conversion rates",
+      image: formwizardPng,
+      link: "https://github.com/sevveiwnl/formwizard"
     }
   ];
 
